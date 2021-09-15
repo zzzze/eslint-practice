@@ -5,7 +5,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard'
+    'standard',
+    'standard-with-typescript'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -13,6 +14,7 @@ module.exports = {
       jsx: true
     },
     ecmaVersion: 12,
+    project: './tsconfig.json',
     sourceType: 'module'
   },
   plugins: [
