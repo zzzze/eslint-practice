@@ -8,8 +8,8 @@ module.exports = {
     'standard',
     'standard-with-typescript'
   ],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaFeatures: {
       jsx: true
     },
